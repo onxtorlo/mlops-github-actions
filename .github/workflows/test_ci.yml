@@ -20,7 +20,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: jeongeun/github-actions-push
+        image: jeongeuuuun/github-actions-push
 		          # ex) mhso0129/github-actions-push
         tags: v3, latest, gamja, goguma
         registry: docker.io
