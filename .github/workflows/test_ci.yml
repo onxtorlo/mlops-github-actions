@@ -21,7 +21,6 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: jeongeuuuun/github-actions-push
-		          # ex) mhso0129/github-actions-push
         tags: v3, latest, gamja, goguma
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
